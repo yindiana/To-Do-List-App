@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Caacupe+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Caacupe One", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(42, 98, 146);
+}
+
+.container{ /*centrer le container*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 0 20%;
+}
+
+.todo-app{
+    width: 100%;
+    max-width: 400px;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    color: #fff;
+    border-radius: 20%; /*effect arrondi sur la box shadow*/
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.5); /* box shadow avec effect shadow */
+    border: 3px solid rgba(255, 255, 255, 0.18);    /* contour du box-shadow */
+    backdrop-filter: blur(10px);    /* morphisme effect */
+}
